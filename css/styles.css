@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Great Vibes', cursive;
+  color: #66BFBF;
+
+}
+h2{
+  font-family: 'PT Serif', serif;
+  font-size: 2rem;
+  color: #66BFBF;
+}
+h3{
+  font-family: 'PT Serif', serif;
+  color: #11999E;
+}
+hr {
+  margin: 50px auto;
+  border-style: dotted none none;
+  border-color: gray;
+  border-width: 5px;
+  height: 0;
+  width: 10%;
+}
+p{
+  line-height: 2;
+}
+.heading{
+  font-weight: normal;
+
+}
+
+.wd{
+  text-decoration: underline;
+}
+
+.topContainer{
+  background-color: #e3fdfd;
+  /* https://colorhunt.co/palette/42191 */
+  position: relative;
+  padding-top: 100px;
+}
+
+.topCloud{
+  position: absolute;
+  right: 260px;
+  top: 40px;
+}
+
+.bottomCloud{
+  position: absolute;
+  left: 350px;
+  bottom: 200px;
+}
+
+.propic{
+  width:250px;
+  height:250px;
+  margin: 50px;
+}
+
+.intro{
+  width: 50%;
+  margin: auto;
+}
+
+.middleContainer{
+  margin-bottom: 70px;
+}
+
+.skill-row{
+  text-align: left;
+  margin: 50px auto 100px auto;
+  width: 50%;
+  line-height: 2;
+}
+
+.comp{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+
+}
+.dancing{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottomContainer{
+  background-color: #66BFBF;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.btn{
+  margin-top: 30px;
+  background-color: #66BFBF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+
+}
+
+.footer-link{
+  color:#11999E;
+}
